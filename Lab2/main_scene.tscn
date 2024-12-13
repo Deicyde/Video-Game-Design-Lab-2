@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsf1ktpdrxoq5"]
+
+[ext_resource type="PackedScene" uid="uid://cp1bsll6k2t5p" path="res://Ball.tscn" id="1_ghh84"]
+
+[node name="Main Scene" type="Node2D"]
+
+[node name="Ball" parent="." instance=ExtResource("1_ghh84")]
+position = Vector2(148, 112)
+x_velocity = 200
+y_velocity = 120
